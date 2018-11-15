@@ -24,7 +24,7 @@ You have probably been linked to this documentation by a project that is using B
 1. Run `composer install` (you must already have Composer installed).
 1. Install `blt` alias: `./vendor/bin/blt blt:init:shell-alias -y`. At this point you might need restart your shell in order for the alias work.
 
-If your project uses a virtual development environment such as Drupal VM:
+If your project uses a virtual development environment such as [Drupal VM](https://github.com/geerlingguy/drupal-vm#quick-start-guide):
 
 1. Start the VM: `vagrant up`
 1. SSH into the VM: `vagrant ssh`
