@@ -11,6 +11,7 @@ There are two parts to setting up a multisite instance on BLT: the local setup a
     
     * Sets up new a directory in your docroot/sites directory with the multisite name given with all the necessary files and subdirectories.
     * Sets up a new drush alias.
+    * Sets up a new database.
     * Sets up a new vhost in the box/config.yml file. 
     
     Running `blt recipes:multisite:init` currently **does not**...
